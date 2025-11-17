@@ -1,0 +1,14 @@
+name = "worker"
+type = "javascript"
+main = "index.js"
+compatibility_date = "2025-05-02"
+
+[vars]
+CLIENT_ID = "${CLIENT_ID}"
+CLIENT_SECRET = "${CLIENT_SECRET}"
+REFRESH_TOKEN = "${REFRESH_TOKEN}"
+GOOGLE_ADMIN_EMAIL = "admin@example.com"
+EMAIL_DOMAIN = "@example.com"
+TURNSTILE_SITE_KEY = "${TURNSTILE_SITE_KEY}"
+TURNSTILE_SECRET_KEY = "${TURNSTILE_SECRET_KEY}"
+VERIFICATION_CODE = "${VERIFICATION_CODE}"
